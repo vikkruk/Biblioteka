@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+}
+
+nav {
+    padding: 10px;
+    /* max-width: 450px; */
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid lightgrey;
+}
+
+nav img {
+    margin: -20px auto -10px auto;
+    height: auto;
+    height: 250px;
+    display: block;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #8A569F;
+}
+
+main {
+    padding: 20px;
+    background-color: #EDEBEE;
+    color: #6B6F71;
+}
+
+main section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px 4px lightgrey;
+}
+
+main section h2 {
+    font-size: 2.3em;
+    font-weight:lighter;
+    margin-bottom: 35px;
+}
+
+main section table {
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+section table th {
+    text-align: left;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+section table th:nth-of-type(1) {
+    padding-right: 20px;
+}
+
+section table td {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+}
+
+footer {
+    background-color: #EDEBEE;
+    height: 30vh;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (min-width:768px) {
+
+    nav {
+    padding: 10px;
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: none;
+}
+
+nav img {
+    margin-left: 20px;
+    height: auto;
+    height: 200px;
+    display: block;
+}
+
+nav ul {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    height: 150px;
+    margin-right: 10px;
+}
+
+nav ul li {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul li:nth-of-type(2){
+    margin-left: 20px;
+    padding-right: 10px;
+}
+
+main {
+    padding: 20px;
+    background-color: #EDEBEE;
+    color: #6B6F71;
+    height: 76vh;
+}
+
+main section {
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+}
